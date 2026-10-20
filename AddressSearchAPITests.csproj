@@ -31,7 +31,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="Tests\" />
     <Folder Include="TestData\" />
-    <Folder Include="Services\" />
     <Folder Include="Reports\" />
   </ItemGroup>
 
