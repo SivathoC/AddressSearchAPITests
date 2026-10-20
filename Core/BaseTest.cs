@@ -1,4 +1,6 @@
-﻿using AddressSearchAPITests.Services;
+﻿using AddressSearchAPITests.Helpers;
+using AddressSearchAPITests.Services;
+using AventStack.ExtentReports;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,7 @@ namespace AddressSearchAPITests.Core
     public class BaseTest
     {
         protected AddressSearchServices addressSearchServices;
+        protected ExtentTest _test;
 
         [SetUp]
         public void Setup()
