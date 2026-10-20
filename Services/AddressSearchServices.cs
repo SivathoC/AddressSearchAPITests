@@ -14,7 +14,6 @@ namespace AddressSearchAPITests.Services
             this._client = new ApiClient();
         }
         public async Task<SearchResponse> SearchAddress(string query) {
-            var featureLabelFilter = "8 Boulevard du Port 95000 Cergy";
             var parameters = new Dictionary<string, string>
             {
                 { "q", query }
