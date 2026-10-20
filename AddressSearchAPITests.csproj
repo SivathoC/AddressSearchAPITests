@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Helpers\" />
     <Folder Include="Tests\" />
     <Folder Include="TestData\" />
